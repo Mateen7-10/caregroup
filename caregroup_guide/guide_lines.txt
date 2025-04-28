@@ -1,0 +1,60 @@
+create database and migrations (existing in application)
+php artisan migrate
+
+Sometimes, Laravel's cached files can cause issues. Clear the cache using the following commands:
+
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+php artisan optimize
+composer dump-autoload
+php artisan serve
+
+
+
+registration for admin
+====================================
+Name: admin
+Email: admin@gmail.com
+Password: admin123
+role: 0
+====================================
+
+Name: Rehman
+Email: rehman@gmail.com
+Password:rehman123
+role: 2
+
+Name: Sunita
+Email: sunita@gmail.com
+Password:sunita123
+role: 2
+
+Name: Kanwal
+Email: kanwal@gmail.com
+Password:kanwal123
+role: 2
+
+Name: Bisma
+Email: bisma@gmail.com
+Password:bisma123
+role: 2
+
+login for Mateen
+Name: mateen
+Email: mateen@gmail.com
+Password:mateen123
+role: 2
+
+====================================
+====================================
+
+
+
+login for user
+User
+user@gmail.com
+user1234
+
+====================================
+
